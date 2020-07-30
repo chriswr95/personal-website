@@ -5,20 +5,39 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <body className="body">
+        <div className="main">
+          <p>
+            <strong> $ whoami </strong>
+            <br></br>
+            I'm a Seattle based software engineer building (and breaking) things at Amazon.
+          </p>
+          <p>
+            In my free time I love getting outdoors, or kicking back with a book and a glass of scotch.
+            Currently reading the Foundation Series by Isaac Asimov in preperation for the TV show next year.
+          </p>
+          <p>
+            <strong>$ tree</strong>
+            <ul>
+              <li>
+                Home
+            </li>
+              <li>
+                Resume
+            </li>
+              <li>
+                Github
+            </li>
+              <li>
+                Keybase
+            </li>
+              <li>
+                Contact
+            </li>
+            </ul>
+          </p>
+        </div>
+      </body>
     </div>
   );
 }
