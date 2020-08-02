@@ -1,9 +1,5 @@
 .App {
   text-align: left;
-  
-}
-
-.body {
   margin: 10;
   font-family: "SFMono-Regular", "Source Code Pro", "Consolas", "Menlo", "Courier", monospace;
   font-size: 15px;
@@ -20,11 +16,3 @@
   margin-bottom: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
