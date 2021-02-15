@@ -5,9 +5,23 @@ body {
   color: #fff;
 }
 
+a:link {
+    color: #fff;
+}
+
+a:visited {
+  color: #fff;
+}
+
 @media screen and (prefers-color-scheme: light) {
   body {
     background-color: white;
+    color: black;
+  }
+  a:link {
+    color: black;
+  }
+  a:visited {
     color: black;
   }
 }
