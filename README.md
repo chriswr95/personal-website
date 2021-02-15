@@ -60,8 +60,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/ma
 This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
 ### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+run: `yarn build && netlify deploy`
 
 ### `yarn build` fails to minify
 
