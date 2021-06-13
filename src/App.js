@@ -8,6 +8,8 @@ import Home from './Pages/Home';
 import Crypto from './Pages/Crypto';
 
 export default function App() {
+    const notionResume = 'https://www.notion.so/Resume-c6876a00167743f2a100372c8c1ae775';
+
     return (
         <Router>
             <div>
@@ -16,6 +18,11 @@ export default function App() {
                 <Switch>
                     <Route path="/crypto">
                         <Crypto />
+                    </Route>
+                    <Route path="/resume" component={() => {
+                        window.location.href = notionResume;
+                        return;
+                    }}>
                     </Route>
                     <Route path="/">
                         <Home />

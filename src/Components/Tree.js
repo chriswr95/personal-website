@@ -10,6 +10,10 @@ function Tree() {
             link: "/"
         },
         {
+            text: "Resume",
+            link: "/resume"
+        },
+        {
             text: "Github",
             link: "https://github.com/chriswr95"
         },
