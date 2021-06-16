@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import Home from './Pages/Home';
 import Crypto from './Pages/Crypto';
+import { Essays } from "./Pages/Essays";
 
 export default function App() {
     const notionResume = 'https://www.notion.so/Resume-c6876a00167743f2a100372c8c1ae775';
@@ -23,6 +24,9 @@ export default function App() {
                         window.location.href = notionResume;
                         return;
                     }}>
+                    </Route>
+                    <Route path="/essays">
+                        <Essays />
                     </Route>
                     <Route path="/">
                         <Home />

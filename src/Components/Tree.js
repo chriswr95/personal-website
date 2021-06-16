@@ -18,12 +18,12 @@ function Tree() {
             link: "https://github.com/chriswr95"
         },
         {
-            text: "Keybase",
-            link: "https://keybase.io/chriswr"
-        },
-        {
             text: "Crypto",
             link: "/crypto"
+        },
+        {
+            text: "Essays",
+            link: "/essays"
         }
     ];
 
