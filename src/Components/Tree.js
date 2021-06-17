@@ -21,10 +21,10 @@ function Tree() {
             text: "Crypto",
             link: "/crypto"
         },
-        {
-            text: "Essays",
-            link: "/essays"
-        }
+        // {
+        //     text: "Essays",
+        //     link: "/essays"
+        // }
     ];
 
     return (
