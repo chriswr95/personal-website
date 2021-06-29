@@ -8,6 +8,10 @@ export const Essays = () => {
         {
             text: "Delight",
             link: "https://www.notion.so/Delight-5a69a55eff7e48a387f8a639acb0f49e"
+        }, 
+        {
+            text: "Acorns",
+            link: "https://www.notion.so/Acorns-80ec7fed2d344f58af7dcc9ca3dd51b1"
         }
     ]
 
