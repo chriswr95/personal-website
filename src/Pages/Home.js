@@ -10,11 +10,11 @@ function Home() {
           <p>
             <strong> $ whoami </strong>
             <br></br>
-            I'm a Seattle based software engineer building (and breaking) things at Amazon.
+            I'm a Bay Area based software engineer building (and breaking) things at Twitter.
           </p>
           <p>
             In my free time I love getting outdoors. Mostly skiing, biking, and running.
-            I'm currently reading the Foundation Series by Isaac Asimov in preperation for the AppleTV show next year.
+            I'm currently reading the Foundation Series by Isaac Asimov in preperation for the AppleTV show this year.
             I also enjoying puttering around with crypto in my spare time.
           </p>
           <Tree />
