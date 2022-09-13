@@ -1,7 +1,7 @@
 import React from "react";
 import {
     BrowserRouter as Router,
-    Switch,
+    Routes,
     Route,
 } from "react-router-dom";
 import Home from './Pages/Home';
@@ -14,24 +14,18 @@ export default function App() {
     return (
         <Router>
             <div>
-                {/* A <Switch> looks through its children <Route>s and
+                {/* A <Routes> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
-                <Switch>
-                    <Route path="/crypto">
-                        <Crypto />
-                    </Route>
-                    <Route path="/resume" component={() => {
+                <Routes>
+                    <Route path="/crypto" element={<Crypto />} />
+                    <Route path="/resume" element={() => {
                         window.location.href = notionResume;
                         return;
                     }}>
                     </Route>
-                    <Route path="/essays">
-                        <Essays />
-                    </Route>
-                    <Route path="/">
-                        <Home />
-                    </Route>
-                </Switch>
+                    <Route path="/essays" element={<Essays />} />
+                    <Route path="/" element={<Home />} />
+                </Routes>
             </div>
         </Router>
     );
