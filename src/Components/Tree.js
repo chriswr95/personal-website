@@ -4,14 +4,15 @@ import '../App.css';
 
 
 function Tree() {
+    const notionResume = 'https://www.notion.so/Resume-c6876a00167743f2a100372c8c1ae775';
     const items = [
         {
             text: "Home",
-            link: "/"
+            link: "/personal-website"
         },
         {
             text: "Resume",
-            link: "/resume"
+            link: notionResume
         },
         {
             text: "Github",
@@ -19,7 +20,7 @@ function Tree() {
         },
         {
             text: "Crypto",
-            link: "/crypto"
+            link: "/personal-website/crypto"
         },
         // {
         //     text: "Essays",
