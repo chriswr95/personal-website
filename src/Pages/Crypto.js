@@ -6,7 +6,6 @@ function Crypto() {
     return ( 
         <div className="App">
             <div className="main">
-                Crypto
                 <CeasarCypher />
                 <Tree />
             </div>
