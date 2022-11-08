@@ -14,7 +14,7 @@ function Home() {
           </p>
           <p>
             In my free time I love getting outdoors. Mostly skiing, biking, and running.
-            I'm currently reading the Foundation Series by Isaac Asimov in preperation for the AppleTV show this year.
+            I'm currently reading the Foundation Series by Isaac Asimov in preperation for the AppleTV show.
             I also enjoying puttering around with crypto in my spare time.
           </p>
           <Tree />

@@ -8,7 +8,7 @@ function Tree() {
     const items = [
         {
             text: "Home",
-            link: "/personal-website"
+            link: "/"
         },
         {
             text: "Resume",
@@ -20,7 +20,7 @@ function Tree() {
         },
         {
             text: "Crypto",
-            link: "/personal-website/crypto"
+            link: "/crypto"
         },
         // {
         //     text: "Essays",
