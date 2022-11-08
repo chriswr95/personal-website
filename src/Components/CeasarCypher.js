@@ -8,7 +8,7 @@ function CeasarCypher() {
     return (
         <div>
             <p>
-                <strong>$ CeasarCypher </strong>
+                <strong>$ ceasar-cypher help </strong>
             </p>
             <p>
                 Ceasar encyrpted messages to his generals to prevent them from falling into the wrong hands.
@@ -19,7 +19,7 @@ function CeasarCypher() {
                 Try it out! Type your message into the input box below and press enter. Can you figure out how many letters I am shifting by?
             </p>
             <p>
-                <strong> $ Encrypt </strong> <input type="text" value={message} onChange={(event) => { setMessage(event.target.value) }} />
+                <strong> $ ceasar-cypher encrypt </strong> <input type="text" value={message} onChange={(event) => { setMessage(event.target.value) }} />
                 <br />
                 {ceasarCypher(message, shift)}
             </p>
@@ -27,7 +27,7 @@ function CeasarCypher() {
                 To decrypt the encrypted message, type it below. 
             </p>
             <p>
-                <strong> $ Decrypt </strong> <input type="text" onChange={(event) => {setCrypt(event.target.value)}} />
+                <strong> $ ceasar-cypher decrypt </strong> <input type="text" onChange={(event) => {setCrypt(event.target.value)}} />
                 <br />
                 {decryptCeasarCypher(crypt, shift)}
             </p>
